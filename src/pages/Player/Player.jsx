@@ -2,7 +2,7 @@ import './player.css'
 
 const Player = () => {
   return (
-    <div>Player</div>
+    <div className=''>Player</div>
   )
 }
 
