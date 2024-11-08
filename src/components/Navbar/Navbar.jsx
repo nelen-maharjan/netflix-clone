@@ -20,9 +20,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <img src={search_icon} alt="search-icon" />
+        <img src={search_icon} className='icons' alt="search-icon" />
         <p>Children</p>
-        <img src={bell_icon} alt="bell-icon" />
+        <img src={bell_icon} className='icons' alt="bell-icon" />
         <div className="navbar-profile">
         <img src={profile_img} alt="user" className='profile' />
         <img src={caret_icon} alt="icon" />
