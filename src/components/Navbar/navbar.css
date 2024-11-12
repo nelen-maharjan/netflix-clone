@@ -91,6 +91,9 @@
     .navbar img{
         height: 25px;
     }
+    .navbar-right .profile{
+        width: 25px;
+    }
 }
 
 @media (max-width:500px){
@@ -99,5 +102,11 @@
     }
     .navbar-right{
         gap: 10px;
+    }
+    .navbar-right p{
+        font-size: 14px;
+    }
+    .navbar-right .profile{
+        width: 20px;
     }
 }
